@@ -1,2 +1,2 @@
 # LetsUpgrade_python_Assignment
-This repository  contains the python Assignment of LetsUpgrade
+This repository  contains the python Assignments of LetsUpgrade
