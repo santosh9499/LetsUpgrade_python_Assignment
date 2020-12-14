@@ -58,14 +58,35 @@ print('=======================================')
 print('=======================================')
 print("\n")
 print('=======================================')
-lower = 1
-upper = int(input("Enter number: "))
-num=1
-while range(lower, upper + 1):
-   if upper > 1:
-       for i in range(2, upper):
-           if (upper % i) == 0:
+n=int(input("Enter maximun range for  prime numbers:"))
+
+x=int(input("Enter how many prime numbers to print:"))
+
+c=0
+
+f=2
+
+while(c<x):
+
+   if n>=2:
+
+       for i in range(2,f):
+
+           if f%i==0:
+
                break
+
        else:
-           print(upper)
+
+           if f>=n:
+
+               break
+
+           else:
+
+               print(f)
+
+               c+=1      
+
+   f+=1        
 print('=======================================')
